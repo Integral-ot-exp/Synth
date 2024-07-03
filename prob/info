@@ -1,0 +1,225 @@
+{
+  "uuid": "8289e0d87031d2cc2287afd56eaec48a",
+  "path": "Offline/prob",
+  "name": "prob",
+  "content": "",
+  "created_at": "2024-06-27 21:21:08",
+  "updated_at": "2024-07-03 22:19:01",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "907bd824fa76ea5048f377784d268644",
+      "title": "Регистры",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "427f119159784536b490f25e1734a2b9": 5,
+        "65b1ae295679465fabfb76c1fc7cc7e6": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-F-2.54_1x5",
+          1,
+          "HDR-F-2.54_1X5",
+          "H1",
+          {
+            "Supplier Part": "C50950",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-F-2.54_1x5",
+            "puuid": "4bb67b2ac49a4595b3ed10b792fcbebb",
+            "uuid": "65b1ae295679465fabfb76c1fc7cc7e6"
+          }
+        ],
+        [
+          "SN74HC165N",
+          5,
+          "DIP-16_L19.8-W6.5-P2.54-LS7.6-BL",
+          "RG1,RG2,RG3,RG4,RG5",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "SN74HC165N",
+            "Supplier Part": "C2909",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SN74HC165N",
+            "puuid": "1f423f14388b4b17afc87646625a53f6",
+            "uuid": "427f119159784536b490f25e1734a2b9"
+          }
+        ],
+        [
+          "110kΩ",
+          36,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120104",
+            "Manufacturer": "CCO(千志电子)",
+            "Manufacturer Part": "CF1/4W-110KΩ±5% T52",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CF1/4W-110KΩ±5% T52",
+            "puuid": "9ea59130ae074fa3abe27de8cbf71d91",
+            "uuid": "3d934d82904b4c46a63ba0283a7ea11a"
+          }
+        ],
+        [
+          "TS-1001T-AC05016",
+          36,
+          "SW-SMD_L6.0-W3.5-LS8.0-EH",
+          "SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12,SW13,SW14,SW15,SW16,SW17,SW18,SW19,SW20,SW21,SW22,SW23,SW24,SW25,SW26,SW27,SW28,SW29,SW30,SW31,SW32,SW33,SW34,SW35,SW36",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C720486",
+            "Manufacturer": "XUNPU(讯普)",
+            "Manufacturer Part": "TS-1001T-AC05016",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TS-1001T-AC05016",
+            "puuid": "fa53c3202dc74d54b6b140295bf9d4da",
+            "uuid": "aeb8f50ad962483099f6e6fafe8537ea"
+          }
+        ]
+      ],
+      "updateTime": 1720034341,
+      "createTime": 1719512468,
+      "histories": [],
+      "created_at": "2024-06-27 21:21:08",
+      "updated_at": "2024-07-03 22:19:01"
+    },
+    {
+      "uuid": "613de701e515579ef619d705dc6decbe",
+      "title": "Кнопки",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "3d934d82904b4c46a63ba0283a7ea11a": 36,
+        "aeb8f50ad962483099f6e6fafe8537ea": 36
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-F-2.54_1x5",
+          1,
+          "HDR-F-2.54_1X5",
+          "H1",
+          {
+            "Supplier Part": "C50950",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-F-2.54_1x5",
+            "puuid": "4bb67b2ac49a4595b3ed10b792fcbebb",
+            "uuid": "65b1ae295679465fabfb76c1fc7cc7e6"
+          }
+        ],
+        [
+          "SN74HC165N",
+          5,
+          "DIP-16_L19.8-W6.5-P2.54-LS7.6-BL",
+          "RG1,RG2,RG3,RG4,RG5",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "SN74HC165N",
+            "Supplier Part": "C2909",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SN74HC165N",
+            "puuid": "1f423f14388b4b17afc87646625a53f6",
+            "uuid": "427f119159784536b490f25e1734a2b9"
+          }
+        ],
+        [
+          "110kΩ",
+          36,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120104",
+            "Manufacturer": "CCO(千志电子)",
+            "Manufacturer Part": "CF1/4W-110KΩ±5% T52",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CF1/4W-110KΩ±5% T52",
+            "puuid": "9ea59130ae074fa3abe27de8cbf71d91",
+            "uuid": "3d934d82904b4c46a63ba0283a7ea11a"
+          }
+        ],
+        [
+          "TS-1001T-AC05016",
+          36,
+          "SW-SMD_L6.0-W3.5-LS8.0-EH",
+          "SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12,SW13,SW14,SW15,SW16,SW17,SW18,SW19,SW20,SW21,SW22,SW23,SW24,SW25,SW26,SW27,SW28,SW29,SW30,SW31,SW32,SW33,SW34,SW35,SW36",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C720486",
+            "Manufacturer": "XUNPU(讯普)",
+            "Manufacturer Part": "TS-1001T-AC05016",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TS-1001T-AC05016",
+            "puuid": "fa53c3202dc74d54b6b140295bf9d4da",
+            "uuid": "aeb8f50ad962483099f6e6fafe8537ea"
+          }
+        ]
+      ],
+      "updateTime": 1720034341,
+      "createTime": 1719664863,
+      "histories": [],
+      "created_at": "2024-06-29 15:41:03",
+      "updated_at": "2024-07-03 22:19:01"
+    },
+    {
+      "uuid": "c40adcafe6b4fbcd74bc6931e1fb4e5d",
+      "puuid": "8289e0d87031d2cc2287afd56eaec48a",
+      "title": "PCB_prob",
+      "filename": "PCB_prob.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "4bb67b2ac49a4595b3ed10b792fcbebb": 1,
+        "9ea59130ae074fa3abe27de8cbf71d91": 36,
+        "1f423f14388b4b17afc87646625a53f6": 5,
+        "fa53c3202dc74d54b6b140295bf9d4da": 36
+      },
+      "BOM": [],
+      "updateTime": 1720032870,
+      "createTime": 1719926307,
+      "histories": [],
+      "created_at": "2024-07-02 16:18:27",
+      "updated_at": "2024-07-03 21:54:30"
+    }
+  ],
+  "sort": [
+    "907bd824fa76ea5048f377784d268644",
+    "613de701e515579ef619d705dc6decbe"
+  ],
+  "title": "prob",
+  "foldername": "prob",
+  "schfilename": "prob.json",
+  "schfilemtime": 1720034341842
+}
