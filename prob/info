@@ -4,7 +4,7 @@
   "name": "prob",
   "content": "",
   "created_at": "2024-06-27 21:21:08",
-  "updated_at": "2024-07-03 22:19:01",
+  "updated_at": "2024-07-10 23:52:43",
   "stick": "",
   "documents": [
     {
@@ -16,7 +16,7 @@
       "thumb": "/images/thumb-default.png",
       "components": {
         "427f119159784536b490f25e1734a2b9": 5,
-        "65b1ae295679465fabfb76c1fc7cc7e6": 1
+        "7809ed3ba7c24a14936ce2a66b37ccdb": 1
       },
       "BOM": [
         [
@@ -27,19 +27,19 @@
           "CustomPara"
         ],
         [
-          "HDR-F-2.54_1x5",
+          "HDR-F-2.54_1x8",
           1,
-          "HDR-F-2.54_1X5",
-          "H1",
+          "HDR-F-2.54_1X8",
+          "H2",
           {
-            "Supplier Part": "C50950",
+            "Supplier Part": "C225505",
             "Supplier": "LCSC",
             "Manufacturer": "",
             "Manufacturer Part": "",
             "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "HDR-F-2.54_1x5",
-            "puuid": "4bb67b2ac49a4595b3ed10b792fcbebb",
-            "uuid": "65b1ae295679465fabfb76c1fc7cc7e6"
+            "spiceSymbolName": "HDR-F-2.54_1x8",
+            "puuid": "76a028e0363649388f2a2e340a157455",
+            "uuid": "7809ed3ba7c24a14936ce2a66b37ccdb"
           }
         ],
         [
@@ -93,11 +93,11 @@
           }
         ]
       ],
-      "updateTime": 1720034341,
+      "updateTime": 1720644644,
       "createTime": 1719512468,
       "histories": [],
       "created_at": "2024-06-27 21:21:08",
-      "updated_at": "2024-07-03 22:19:01"
+      "updated_at": "2024-07-10 23:50:44"
     },
     {
       "uuid": "613de701e515579ef619d705dc6decbe",
@@ -201,17 +201,17 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "4bb67b2ac49a4595b3ed10b792fcbebb": 1,
         "9ea59130ae074fa3abe27de8cbf71d91": 36,
         "1f423f14388b4b17afc87646625a53f6": 5,
-        "fa53c3202dc74d54b6b140295bf9d4da": 36
+        "fa53c3202dc74d54b6b140295bf9d4da": 36,
+        "76a028e0363649388f2a2e340a157455": 1
       },
       "BOM": [],
-      "updateTime": 1720032870,
+      "updateTime": 1720644763,
       "createTime": 1719926307,
       "histories": [],
       "created_at": "2024-07-02 16:18:27",
-      "updated_at": "2024-07-03 21:54:30"
+      "updated_at": "2024-07-10 23:52:43"
     }
   ],
   "sort": [
@@ -221,5 +221,5 @@
   "title": "prob",
   "foldername": "prob",
   "schfilename": "prob.json",
-  "schfilemtime": 1720034341842
+  "schfilemtime": 1720644644526
 }
