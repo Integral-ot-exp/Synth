@@ -4,7 +4,7 @@
   "name": "Synth",
   "content": "",
   "created_at": "2024-06-27 21:21:08",
-  "updated_at": "2024-07-16 18:19:25",
+  "updated_at": "2024-07-17 01:31:02",
   "stick": "",
   "documents": [
     {
@@ -16,7 +16,6 @@
       "thumb": "/images/thumb-default.png",
       "components": {
         "427f119159784536b490f25e1734a2b9": 5,
-        "7809ed3ba7c24a14936ce2a66b37ccdb": 1,
         "e934ffa94bf0419ea042dcad3c3293ca": 5
       },
       "BOM": [
@@ -26,6 +25,18 @@
           "Package",
           "Components",
           "CustomPara"
+        ],
+        [
+          "SN74LVC1G125DBVR",
+          2,
+          "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL",
+          "B1_CLK,B2_SH",
+          {
+            "Manufacturer Part": "SN74LVC1G125DBVR",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C23654"
+          }
         ],
         [
           "100nF",
@@ -40,15 +51,15 @@
           }
         ],
         [
-          "HDR-F-2.54_1x8",
+          "HDR-F-2.54_1x6",
           1,
-          "HDR-F-2.54_1X8",
-          "H2",
+          "HDR-F-2.54_1X6",
+          "H1",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
             "Supplier": "LCSC",
-            "Supplier Part": "C225505"
+            "Supplier Part": "C40877"
           }
         ],
         [
@@ -61,18 +72,6 @@
             "Manufacturer": "CCO(千志电子)",
             "Supplier": "LCSC",
             "Supplier Part": "C120104"
-          }
-        ],
-        [
-          "1.2kΩ",
-          2,
-          "RES-TH_BD2.2-L6.5-P10.50-D0.9",
-          "R38,R39",
-          {
-            "Manufacturer Part": "CF1/6W-1.2KΩ±5% T52",
-            "Manufacturer": "CCO(千志电子)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C119872"
           }
         ],
         [
@@ -98,25 +97,13 @@
             "Supplier": "LCSC",
             "Supplier Part": "C720486"
           }
-        ],
-        [
-          "CDCLVC1106PW",
-          2,
-          "TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL",
-          "U1,U2",
-          {
-            "Manufacturer Part": "CDCLVC1106PW",
-            "Manufacturer": "TI(德州仪器)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C1520138"
-          }
         ]
       ],
-      "updateTime": 1721142786,
+      "updateTime": 1721167663,
       "createTime": 1719512468,
       "histories": [],
       "created_at": "2024-06-27 21:21:08",
-      "updated_at": "2024-07-16 18:13:06"
+      "updated_at": "2024-07-17 01:07:43"
     },
     {
       "uuid": "613de701e515579ef619d705dc6decbe",
@@ -218,8 +205,8 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "493f0efa3f2e438893dbddc3d723c47e": 2,
-        "6f66e1279d6c4e248c22aa6bbb874ee6": 2
+        "0e5ac49feebd32174f6e43cf354f7862": 2,
+        "2f5c8276f8d64010877a8d3bb97697b8": 1
       },
       "BOM": [
         [
@@ -230,15 +217,39 @@
           "CustomPara"
         ],
         [
-          "HDR-F-2.54_1x8",
+          "SN74LVC1G125DBVR",
+          2,
+          "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL",
+          "B1_CLK,B2_SH",
+          {
+            "Manufacturer Part": "SN74LVC1G125DBVR",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C23654"
+          }
+        ],
+        [
+          "100nF",
+          5,
+          "CAP-TH_L7.2-W2.5-P5.00-D0.5",
+          "C1,C2,C3,C4,C5",
+          {
+            "Manufacturer Part": "PE104J2A0504",
+            "Manufacturer": "KYET(科雅)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3019037"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x6",
           1,
-          "HDR-F-2.54_1X8",
-          "H2",
+          "HDR-F-2.54_1X6",
+          "H1",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
             "Supplier": "LCSC",
-            "Supplier Part": "C225505"
+            "Supplier Part": "C40877"
           }
         ],
         [
@@ -251,18 +262,6 @@
             "Manufacturer": "CCO(千志电子)",
             "Supplier": "LCSC",
             "Supplier Part": "C120104"
-          }
-        ],
-        [
-          "1.2kΩ",
-          2,
-          "RES-TH_BD2.2-L6.5-P10.50-D0.9",
-          "R38,R39",
-          {
-            "Manufacturer Part": "CF1/6W-1.2KΩ±5% T52",
-            "Manufacturer": "CCO(千志电子)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C119872"
           }
         ],
         [
@@ -288,37 +287,13 @@
             "Supplier": "LCSC",
             "Supplier Part": "C720486"
           }
-        ],
-        [
-          "CDCLVC1106PW",
-          2,
-          "TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL",
-          "U1,U2",
-          {
-            "Manufacturer Part": "CDCLVC1106PW",
-            "Manufacturer": "TI(德州仪器)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C1520138"
-          }
-        ],
-        [
-          "100nF",
-          5,
-          "CAP-TH_L7.2-W2.5-P5.00-D0.5",
-          "U3,U4,U5,U6,U7",
-          {
-            "Manufacturer Part": "PE104J2A0504",
-            "Manufacturer": "KYET(科雅)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C3019037"
-          }
         ]
       ],
-      "updateTime": 1721142247,
+      "updateTime": 1721167663,
       "createTime": 1720961666,
       "histories": [],
       "created_at": "2024-07-14 15:54:26",
-      "updated_at": "2024-07-16 18:04:07"
+      "updated_at": "2024-07-17 01:07:43"
     },
     {
       "uuid": "c40adcafe6b4fbcd74bc6931e1fb4e5d",
@@ -330,20 +305,19 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "36f5e32e6fda497d8f605cd2fcc2f390": 5,
         "9ea59130ae074fa3abe27de8cbf71d91": 36,
         "fa53c3202dc74d54b6b140295bf9d4da": 36,
-        "76a028e0363649388f2a2e340a157455": 1,
         "1f423f14388b4b17afc87646625a53f6": 5,
-        "effc89414532445783190cb2bb98fda9": 2,
-        "80a3980f11914ca3a11dea6a81230c3d": 2,
-        "36f5e32e6fda497d8f605cd2fcc2f390": 5
+        "a801549ddf8f431796761cd071417387": 2,
+        "e86d43893d914130bd34765c00ed5f63": 1
       },
       "BOM": [],
-      "updateTime": 1721143165,
+      "updateTime": 1721169062,
       "createTime": 1719926307,
       "histories": [],
       "created_at": "2024-07-02 16:18:27",
-      "updated_at": "2024-07-16 18:19:25"
+      "updated_at": "2024-07-17 01:31:02"
     }
   ],
   "sort": [
@@ -354,5 +328,5 @@
   "title": "Synth",
   "foldername": "Synth",
   "schfilename": "prob.json",
-  "schfilemtime": 1721142786945
+  "schfilemtime": 1721167663725
 }
