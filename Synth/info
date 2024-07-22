@@ -4,7 +4,7 @@
   "name": "Synth",
   "content": "",
   "created_at": "2024-06-27 21:21:08",
-  "updated_at": "2024-07-22 23:24:27",
+  "updated_at": "2024-07-22 23:31:32",
   "stick": "",
   "documents": [
     {
@@ -346,11 +346,11 @@
         "9ea59130ae074fa3abe27de8cbf71d91": 36
       },
       "BOM": [],
-      "updateTime": 1721679867,
+      "updateTime": 1721680292,
       "createTime": 1719926307,
       "histories": [],
       "created_at": "2024-07-02 16:18:27",
-      "updated_at": "2024-07-22 23:24:27"
+      "updated_at": "2024-07-22 23:31:32"
     }
   ],
   "sort": [
