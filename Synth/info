@@ -4,7 +4,7 @@
   "name": "Synth",
   "content": "",
   "created_at": "2024-06-27 21:21:08",
-  "updated_at": "2024-07-17 01:31:02",
+  "updated_at": "2024-07-22 23:24:27",
   "stick": "",
   "documents": [
     {
@@ -114,7 +114,7 @@
       "thumb": "/images/thumb-default.png",
       "components": {
         "3d934d82904b4c46a63ba0283a7ea11a": 36,
-        "aeb8f50ad962483099f6e6fafe8537ea": 36
+        "e715623c06364cf8849818371cf1f7b0": 36
       },
       "BOM": [
         [
@@ -125,19 +125,20 @@
           "CustomPara"
         ],
         [
-          "HDR-F-2.54_1x5",
-          1,
-          "HDR-F-2.54_1X5",
-          "H1",
+          "100nF",
+          5,
+          "CAP-TH_L7.2-W2.5-P5.00-D0.5",
+          "C1,C2,C3,C4,C5",
           {
-            "Supplier Part": "C50950",
+            "Contributor": "lcsc",
             "Supplier": "LCSC",
-            "Manufacturer": "",
-            "Manufacturer Part": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "HDR-F-2.54_1x5",
-            "puuid": "4bb67b2ac49a4595b3ed10b792fcbebb",
-            "uuid": "65b1ae295679465fabfb76c1fc7cc7e6"
+            "Supplier Part": "C3019037",
+            "Manufacturer": "KYET(科雅)",
+            "Manufacturer Part": "PE104J2A0504",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PE104J2A0504",
+            "puuid": "36f5e32e6fda497d8f605cd2fcc2f390",
+            "uuid": "e934ffa94bf0419ea042dcad3c3293ca"
           }
         ],
         [
@@ -174,28 +175,60 @@
           }
         ],
         [
-          "TS-1001T-AC05016",
+          "SW",
           36,
-          "SW-SMD_L6.0-W3.5-LS8.0-EH",
+          "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2",
           "SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12,SW13,SW14,SW15,SW16,SW17,SW18,SW19,SW20,SW21,SW22,SW23,SW24,SW25,SW26,SW27,SW28,SW29,SW30,SW31,SW32,SW33,SW34,SW35,SW36",
           {
-            "Contributor": "LCSC",
+            "Contributor": "lcsc",
             "Supplier": "LCSC",
-            "Supplier Part": "C720486",
-            "Manufacturer": "XUNPU(讯普)",
-            "Manufacturer Part": "TS-1001T-AC05016",
+            "Supplier Part": "C9900024939",
+            "Manufacturer": "null",
+            "Manufacturer Part": "按键",
             "JLCPCB Part Class": "Extended Part",
-            "spiceSymbolName": "TS-1001T-AC05016",
-            "puuid": "fa53c3202dc74d54b6b140295bf9d4da",
-            "uuid": "aeb8f50ad962483099f6e6fafe8537ea"
+            "spiceSymbolName": "SW",
+            "puuid": "cbb783650c0145abbbc29a9941eb1b0b",
+            "uuid": "e715623c06364cf8849818371cf1f7b0"
+          }
+        ],
+        [
+          "SN74LVC1G125DBVR",
+          2,
+          "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL",
+          "B1_CLK,B2_SH",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "SN74LVC1G125DBVR",
+            "Supplier Part": "C23654",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SN74LVC1G125DBVR",
+            "puuid": "a801549ddf8f431796761cd071417387",
+            "uuid": "0e5ac49feebd32174f6e43cf354f7862"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x6",
+          1,
+          "HDR-F-2.54_1X6",
+          "H1",
+          {
+            "Supplier Part": "C40877",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-F-2.54_1x6",
+            "puuid": "e86d43893d914130bd34765c00ed5f63",
+            "uuid": "2f5c8276f8d64010877a8d3bb97697b8"
           }
         ]
       ],
-      "updateTime": 1720034341,
+      "updateTime": 1721675990,
       "createTime": 1719664863,
       "histories": [],
       "created_at": "2024-06-29 15:41:03",
-      "updated_at": "2024-07-03 22:19:01"
+      "updated_at": "2024-07-22 22:19:50"
     },
     {
       "uuid": "0c025a35609e5b3ce286c495ada8de2e",
@@ -306,18 +339,18 @@
       "thumb": "/images/thumb-default.png",
       "components": {
         "36f5e32e6fda497d8f605cd2fcc2f390": 5,
-        "9ea59130ae074fa3abe27de8cbf71d91": 36,
-        "fa53c3202dc74d54b6b140295bf9d4da": 36,
         "1f423f14388b4b17afc87646625a53f6": 5,
         "a801549ddf8f431796761cd071417387": 2,
-        "e86d43893d914130bd34765c00ed5f63": 1
+        "e86d43893d914130bd34765c00ed5f63": 1,
+        "cbb783650c0145abbbc29a9941eb1b0b": 36,
+        "9ea59130ae074fa3abe27de8cbf71d91": 36
       },
       "BOM": [],
-      "updateTime": 1721169062,
+      "updateTime": 1721679867,
       "createTime": 1719926307,
       "histories": [],
       "created_at": "2024-07-02 16:18:27",
-      "updated_at": "2024-07-17 01:31:02"
+      "updated_at": "2024-07-22 23:24:27"
     }
   ],
   "sort": [
@@ -328,5 +361,5 @@
   "title": "Synth",
   "foldername": "Synth",
   "schfilename": "prob.json",
-  "schfilemtime": 1721167663725
+  "schfilemtime": 1721675990483
 }
