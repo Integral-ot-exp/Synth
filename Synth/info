@@ -4,7 +4,7 @@
   "name": "Synth",
   "content": "",
   "created_at": "2024-06-27 21:21:08",
-  "updated_at": "2024-07-22 23:31:32",
+  "updated_at": "2024-07-25 19:00:03",
   "stick": "",
   "documents": [
     {
@@ -15,106 +15,8 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "427f119159784536b490f25e1734a2b9": 5,
-        "e934ffa94bf0419ea042dcad3c3293ca": 5
-      },
-      "BOM": [
-        [
-          "Value",
-          "Quantity",
-          "Package",
-          "Components",
-          "CustomPara"
-        ],
-        [
-          "SN74LVC1G125DBVR",
-          2,
-          "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL",
-          "B1_CLK,B2_SH",
-          {
-            "Manufacturer Part": "SN74LVC1G125DBVR",
-            "Manufacturer": "TI(德州仪器)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C23654"
-          }
-        ],
-        [
-          "100nF",
-          5,
-          "CAP-TH_L7.2-W2.5-P5.00-D0.5",
-          "C1,C2,C3,C4,C5",
-          {
-            "Manufacturer Part": "PE104J2A0504",
-            "Manufacturer": "KYET(科雅)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C3019037"
-          }
-        ],
-        [
-          "HDR-F-2.54_1x6",
-          1,
-          "HDR-F-2.54_1X6",
-          "H1",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "LCSC",
-            "Supplier Part": "C40877"
-          }
-        ],
-        [
-          "110kΩ",
-          36,
-          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
-          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36",
-          {
-            "Manufacturer Part": "CF1/4W-110KΩ±5% T52",
-            "Manufacturer": "CCO(千志电子)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C120104"
-          }
-        ],
-        [
-          "SN74HC165N",
-          5,
-          "DIP-16_L19.8-W6.5-P2.54-LS7.6-BL",
-          "RG1,RG2,RG3,RG4,RG5",
-          {
-            "Manufacturer Part": "SN74HC165N",
-            "Manufacturer": "TI(德州仪器)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C2909"
-          }
-        ],
-        [
-          "TS-1001T-AC05016",
-          36,
-          "SW-SMD_L6.0-W3.5-LS8.0-EH",
-          "SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12,SW13,SW14,SW15,SW16,SW17,SW18,SW19,SW20,SW21,SW22,SW23,SW24,SW25,SW26,SW27,SW28,SW29,SW30,SW31,SW32,SW33,SW34,SW35,SW36",
-          {
-            "Manufacturer Part": "TS-1001T-AC05016",
-            "Manufacturer": "XUNPU(讯普)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C720486"
-          }
-        ]
-      ],
-      "updateTime": 1721167663,
-      "createTime": 1719512468,
-      "histories": [],
-      "created_at": "2024-06-27 21:21:08",
-      "updated_at": "2024-07-17 01:07:43"
-    },
-    {
-      "uuid": "613de701e515579ef619d705dc6decbe",
-      "title": "Кнопки",
-      "description": "",
-      "docType": "1",
-      "master": "",
-      "thumb": "/images/thumb-default.png",
-      "components": {
-        "3d934d82904b4c46a63ba0283a7ea11a": 36,
-        "e715623c06364cf8849818371cf1f7b0": 36
+        "e934ffa94bf0419ea042dcad3c3293ca": 3,
+        "3131f2dd8017479d82134c25c43ed724": 3
       },
       "BOM": [
         [
@@ -126,9 +28,9 @@
         ],
         [
           "100nF",
-          5,
+          3,
           "CAP-TH_L7.2-W2.5-P5.00-D0.5",
-          "C1,C2,C3,C4,C5",
+          "C1,C2,C6",
           {
             "Contributor": "lcsc",
             "Supplier": "LCSC",
@@ -143,25 +45,26 @@
         ],
         [
           "SN74HC165N",
-          5,
+          3,
           "DIP-16_L19.8-W6.5-P2.54-LS7.6-BL",
-          "RG1,RG2,RG3,RG4,RG5",
+          "U1,U2,U3",
           {
             "Supplier": "LCSC",
             "Manufacturer": "TI(德州仪器)",
             "Manufacturer Part": "SN74HC165N",
             "Supplier Part": "C2909",
             "JLCPCB Part Class": "Extended Part",
+            "Contributor": "danik_mus",
             "spiceSymbolName": "SN74HC165N",
             "puuid": "1f423f14388b4b17afc87646625a53f6",
-            "uuid": "427f119159784536b490f25e1734a2b9"
+            "uuid": "3131f2dd8017479d82134c25c43ed724"
           }
         ],
         [
           "110kΩ",
-          36,
+          24,
           "RES-TH_BD2.3-L6.5-P10.50-D0.5",
-          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36",
+          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R22,R23,R24,R25,R26,R27,R28",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
@@ -176,9 +79,9 @@
         ],
         [
           "SW",
-          36,
+          24,
           "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2",
-          "SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12,SW13,SW14,SW15,SW16,SW17,SW18,SW19,SW20,SW21,SW22,SW23,SW24,SW25,SW26,SW27,SW28,SW29,SW30,SW31,SW32,SW33,SW34,SW35,SW36",
+          "SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12,SW13,SW14,SW15,SW16,SW17,SW18,SW19,SW20,SW21,SW22,SW23,SW24",
           {
             "Contributor": "lcsc",
             "Supplier": "LCSC",
@@ -224,11 +127,137 @@
           }
         ]
       ],
-      "updateTime": 1721675990,
+      "updateTime": 1721917604,
+      "createTime": 1719512468,
+      "histories": [],
+      "created_at": "2024-06-27 21:21:08",
+      "updated_at": "2024-07-25 17:26:44"
+    },
+    {
+      "uuid": "613de701e515579ef619d705dc6decbe",
+      "title": "Кнопки",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "3d934d82904b4c46a63ba0283a7ea11a": 24,
+        "e715623c06364cf8849818371cf1f7b0": 24
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100nF",
+          3,
+          "CAP-TH_L7.2-W2.5-P5.00-D0.5",
+          "C1,C2,C6",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3019037",
+            "Manufacturer": "KYET(科雅)",
+            "Manufacturer Part": "PE104J2A0504",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PE104J2A0504",
+            "puuid": "36f5e32e6fda497d8f605cd2fcc2f390",
+            "uuid": "e934ffa94bf0419ea042dcad3c3293ca"
+          }
+        ],
+        [
+          "SN74HC165N",
+          3,
+          "DIP-16_L19.8-W6.5-P2.54-LS7.6-BL",
+          "U1,U2,U3",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "SN74HC165N",
+            "Supplier Part": "C2909",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "danik_mus",
+            "spiceSymbolName": "SN74HC165N",
+            "puuid": "1f423f14388b4b17afc87646625a53f6",
+            "uuid": "3131f2dd8017479d82134c25c43ed724"
+          }
+        ],
+        [
+          "110kΩ",
+          24,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120104",
+            "Manufacturer": "CCO(千志电子)",
+            "Manufacturer Part": "CF1/4W-110KΩ±5% T52",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CF1/4W-110KΩ±5% T52",
+            "puuid": "9ea59130ae074fa3abe27de8cbf71d91",
+            "uuid": "3d934d82904b4c46a63ba0283a7ea11a"
+          }
+        ],
+        [
+          "SW",
+          24,
+          "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2",
+          "SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12,SW13,SW14,SW15,SW16,SW17,SW18,SW19,SW20,SW21,SW22,SW23,SW24",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900024939",
+            "Manufacturer": "null",
+            "Manufacturer Part": "按键",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SW",
+            "puuid": "cbb783650c0145abbbc29a9941eb1b0b",
+            "uuid": "e715623c06364cf8849818371cf1f7b0"
+          }
+        ],
+        [
+          "SN74LVC1G125DBVR",
+          2,
+          "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL",
+          "B1_CLK,B2_SH",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "SN74LVC1G125DBVR",
+            "Supplier Part": "C23654",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SN74LVC1G125DBVR",
+            "puuid": "a801549ddf8f431796761cd071417387",
+            "uuid": "0e5ac49feebd32174f6e43cf354f7862"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x6",
+          1,
+          "HDR-F-2.54_1X6",
+          "H1",
+          {
+            "Supplier Part": "C40877",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-F-2.54_1x6",
+            "puuid": "e86d43893d914130bd34765c00ed5f63",
+            "uuid": "2f5c8276f8d64010877a8d3bb97697b8"
+          }
+        ]
+      ],
+      "updateTime": 1721917975,
       "createTime": 1719664863,
       "histories": [],
       "created_at": "2024-06-29 15:41:03",
-      "updated_at": "2024-07-22 22:19:50"
+      "updated_at": "2024-07-25 17:32:55"
     },
     {
       "uuid": "0c025a35609e5b3ce286c495ada8de2e",
@@ -250,27 +279,87 @@
           "CustomPara"
         ],
         [
+          "100nF",
+          3,
+          "CAP-TH_L7.2-W2.5-P5.00-D0.5",
+          "C1,C2,C6",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3019037",
+            "Manufacturer": "KYET(科雅)",
+            "Manufacturer Part": "PE104J2A0504",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PE104J2A0504",
+            "puuid": "36f5e32e6fda497d8f605cd2fcc2f390",
+            "uuid": "e934ffa94bf0419ea042dcad3c3293ca"
+          }
+        ],
+        [
+          "SN74HC165N",
+          3,
+          "DIP-16_L19.8-W6.5-P2.54-LS7.6-BL",
+          "U1,U2,U3",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "SN74HC165N",
+            "Supplier Part": "C2909",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "danik_mus",
+            "spiceSymbolName": "SN74HC165N",
+            "puuid": "1f423f14388b4b17afc87646625a53f6",
+            "uuid": "3131f2dd8017479d82134c25c43ed724"
+          }
+        ],
+        [
+          "110kΩ",
+          24,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R22,R23,R24,R25,R26,R27,R28",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120104",
+            "Manufacturer": "CCO(千志电子)",
+            "Manufacturer Part": "CF1/4W-110KΩ±5% T52",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CF1/4W-110KΩ±5% T52",
+            "puuid": "9ea59130ae074fa3abe27de8cbf71d91",
+            "uuid": "3d934d82904b4c46a63ba0283a7ea11a"
+          }
+        ],
+        [
+          "SW",
+          24,
+          "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2",
+          "SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12,SW13,SW14,SW15,SW16,SW17,SW18,SW19,SW20,SW21,SW22,SW23,SW24",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900024939",
+            "Manufacturer": "null",
+            "Manufacturer Part": "按键",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SW",
+            "puuid": "cbb783650c0145abbbc29a9941eb1b0b",
+            "uuid": "e715623c06364cf8849818371cf1f7b0"
+          }
+        ],
+        [
           "SN74LVC1G125DBVR",
           2,
           "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL",
           "B1_CLK,B2_SH",
           {
-            "Manufacturer Part": "SN74LVC1G125DBVR",
+            "Supplier": "LCSC",
             "Manufacturer": "TI(德州仪器)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C23654"
-          }
-        ],
-        [
-          "100nF",
-          5,
-          "CAP-TH_L7.2-W2.5-P5.00-D0.5",
-          "C1,C2,C3,C4,C5",
-          {
-            "Manufacturer Part": "PE104J2A0504",
-            "Manufacturer": "KYET(科雅)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C3019037"
+            "Manufacturer Part": "SN74LVC1G125DBVR",
+            "Supplier Part": "C23654",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SN74LVC1G125DBVR",
+            "puuid": "a801549ddf8f431796761cd071417387",
+            "uuid": "0e5ac49feebd32174f6e43cf354f7862"
           }
         ],
         [
@@ -279,54 +368,164 @@
           "HDR-F-2.54_1X6",
           "H1",
           {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
+            "Supplier Part": "C40877",
             "Supplier": "LCSC",
-            "Supplier Part": "C40877"
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-F-2.54_1x6",
+            "puuid": "e86d43893d914130bd34765c00ed5f63",
+            "uuid": "2f5c8276f8d64010877a8d3bb97697b8"
           }
+        ]
+      ],
+      "updateTime": 1721917617,
+      "createTime": 1720961666,
+      "histories": [],
+      "created_at": "2024-07-14 15:54:26",
+      "updated_at": "2024-07-25 17:26:57"
+    },
+    {
+      "uuid": "a7582049c2a6c1f8163e352d198de378",
+      "title": "Микроконтроллер",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "c571db05d6204a71bc6cccfd5f3b00b1": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
         ],
         [
-          "110kΩ",
-          36,
-          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
-          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36",
+          "100nF",
+          3,
+          "CAP-TH_L7.2-W2.5-P5.00-D0.5",
+          "C1,C2,C6",
           {
-            "Manufacturer Part": "CF1/4W-110KΩ±5% T52",
-            "Manufacturer": "CCO(千志电子)",
+            "Contributor": "lcsc",
             "Supplier": "LCSC",
-            "Supplier Part": "C120104"
+            "Supplier Part": "C3019037",
+            "Manufacturer": "KYET(科雅)",
+            "Manufacturer Part": "PE104J2A0504",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PE104J2A0504",
+            "puuid": "36f5e32e6fda497d8f605cd2fcc2f390",
+            "uuid": "e934ffa94bf0419ea042dcad3c3293ca"
           }
         ],
         [
           "SN74HC165N",
-          5,
+          3,
           "DIP-16_L19.8-W6.5-P2.54-LS7.6-BL",
-          "RG1,RG2,RG3,RG4,RG5",
+          "U1,U2,U3",
           {
-            "Manufacturer Part": "SN74HC165N",
-            "Manufacturer": "TI(德州仪器)",
             "Supplier": "LCSC",
-            "Supplier Part": "C2909"
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "SN74HC165N",
+            "Supplier Part": "C2909",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "danik_mus",
+            "spiceSymbolName": "SN74HC165N",
+            "puuid": "1f423f14388b4b17afc87646625a53f6",
+            "uuid": "3131f2dd8017479d82134c25c43ed724"
           }
         ],
         [
-          "TS-1001T-AC05016",
-          36,
-          "SW-SMD_L6.0-W3.5-LS8.0-EH",
-          "SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12,SW13,SW14,SW15,SW16,SW17,SW18,SW19,SW20,SW21,SW22,SW23,SW24,SW25,SW26,SW27,SW28,SW29,SW30,SW31,SW32,SW33,SW34,SW35,SW36",
+          "110kΩ",
+          24,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24",
           {
-            "Manufacturer Part": "TS-1001T-AC05016",
-            "Manufacturer": "XUNPU(讯普)",
+            "Contributor": "LCSC",
             "Supplier": "LCSC",
-            "Supplier Part": "C720486"
+            "Supplier Part": "C120104",
+            "Manufacturer": "CCO(千志电子)",
+            "Manufacturer Part": "CF1/4W-110KΩ±5% T52",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CF1/4W-110KΩ±5% T52",
+            "puuid": "9ea59130ae074fa3abe27de8cbf71d91",
+            "uuid": "3d934d82904b4c46a63ba0283a7ea11a"
+          }
+        ],
+        [
+          "SW",
+          24,
+          "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2",
+          "SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12,SW13,SW14,SW15,SW16,SW17,SW18,SW19,SW20,SW21,SW22,SW23,SW24",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900024939",
+            "Manufacturer": "null",
+            "Manufacturer Part": "按键",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SW",
+            "puuid": "cbb783650c0145abbbc29a9941eb1b0b",
+            "uuid": "e715623c06364cf8849818371cf1f7b0"
+          }
+        ],
+        [
+          "SN74LVC1G125DBVR",
+          2,
+          "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL",
+          "B1_CLK,B2_SH",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "SN74LVC1G125DBVR",
+            "Supplier Part": "C23654",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SN74LVC1G125DBVR",
+            "puuid": "a801549ddf8f431796761cd071417387",
+            "uuid": "0e5ac49feebd32174f6e43cf354f7862"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x6",
+          1,
+          "HDR-F-2.54_1X6",
+          "H1",
+          {
+            "Supplier Part": "C40877",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-F-2.54_1x6",
+            "puuid": "e86d43893d914130bd34765c00ed5f63",
+            "uuid": "2f5c8276f8d64010877a8d3bb97697b8"
+          }
+        ],
+        [
+          "STM32G030C8T6",
+          1,
+          "LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL_1",
+          "U4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C529329",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "STM32G030C8T6",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "STM32G030C8T6",
+            "puuid": "c83a9d869de643e5b63b87b09d5740f5",
+            "uuid": "c571db05d6204a71bc6cccfd5f3b00b1"
           }
         ]
       ],
-      "updateTime": 1721167663,
-      "createTime": 1720961666,
+      "updateTime": 1721923081,
+      "createTime": 1721923081,
       "histories": [],
-      "created_at": "2024-07-14 15:54:26",
-      "updated_at": "2024-07-17 01:07:43"
+      "created_at": "2024-07-25 18:58:01",
+      "updated_at": "2024-07-25 18:58:01"
     },
     {
       "uuid": "c40adcafe6b4fbcd74bc6931e1fb4e5d",
@@ -338,28 +537,29 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "36f5e32e6fda497d8f605cd2fcc2f390": 5,
-        "1f423f14388b4b17afc87646625a53f6": 5,
+        "36f5e32e6fda497d8f605cd2fcc2f390": 3,
         "a801549ddf8f431796761cd071417387": 2,
         "e86d43893d914130bd34765c00ed5f63": 1,
-        "cbb783650c0145abbbc29a9941eb1b0b": 36,
-        "9ea59130ae074fa3abe27de8cbf71d91": 36
+        "cbb783650c0145abbbc29a9941eb1b0b": 24,
+        "1f423f14388b4b17afc87646625a53f6": 3,
+        "9ea59130ae074fa3abe27de8cbf71d91": 24
       },
       "BOM": [],
-      "updateTime": 1721680292,
+      "updateTime": 1721923203,
       "createTime": 1719926307,
       "histories": [],
       "created_at": "2024-07-02 16:18:27",
-      "updated_at": "2024-07-22 23:31:32"
+      "updated_at": "2024-07-25 19:00:03"
     }
   ],
   "sort": [
     "907bd824fa76ea5048f377784d268644",
     "613de701e515579ef619d705dc6decbe",
-    "0c025a35609e5b3ce286c495ada8de2e"
+    "0c025a35609e5b3ce286c495ada8de2e",
+    "a7582049c2a6c1f8163e352d198de378"
   ],
   "title": "Synth",
   "foldername": "Synth",
   "schfilename": "prob.json",
-  "schfilemtime": 1721675990483
+  "schfilemtime": 1721923082009
 }
