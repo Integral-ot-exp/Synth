@@ -1,0 +1,93 @@
+{
+  "uuid": "eead829a47ba1654478ccca3aa4e266b",
+  "path": "Offline/%D0%9C%D0%B8%D0%BA%D1%80%D0%BE%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D0%BB%D0%B5%D1%80",
+  "name": "Микроконтроллер",
+  "content": "Создаю микроконтроллер на основе Cortex-M0+",
+  "created_at": "2024-07-26 13:10:18",
+  "updated_at": "2024-07-31 13:55:42",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "26e96b28be26db0a18a65558df6bcb1f",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "c5e9484272374adaa2838cc7f1130931": 1,
+        "68ad42185dd04d73a5fa49a1411d67c0": 1,
+        "9e2be9abb2354c138ce580a48940bdd2": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "STM32G030F6P6",
+          1,
+          "TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL",
+          "U1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C724040",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "STM32G030F6P6",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "STM32G030F6P6",
+            "puuid": "1586800a83194e228c6527ad76c86945",
+            "uuid": "c5e9484272374adaa2838cc7f1130931"
+          }
+        ],
+        [
+          "LD39050PU33R",
+          1,
+          "DFN-6_L3.0-W3.0-P0.95-LS3.1-TL-EP",
+          "U2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "LD39050PU33R",
+            "Supplier Part": "C132827",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LD39050PU33R",
+            "puuid": "33714897f25448668222eb7728a98e24",
+            "uuid": "68ad42185dd04d73a5fa49a1411d67c0"
+          }
+        ],
+        [
+          "LD1117S50TR",
+          1,
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+          "U3",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "LD1117S50TR",
+            "Supplier Part": "C134077",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LD1117S50TR",
+            "puuid": "02ae667aca734971be8a5f58143dd564",
+            "uuid": "9e2be9abb2354c138ce580a48940bdd2"
+          }
+        ]
+      ],
+      "updateTime": 1722423342,
+      "createTime": 1721988618,
+      "histories": [],
+      "created_at": "2024-07-26 13:10:18",
+      "updated_at": "2024-07-31 13:55:42"
+    }
+  ],
+  "sort": [],
+  "title": "Микроконтроллер",
+  "foldername": "Микроконтроллер",
+  "schfilename": "Микроконтроллер.json",
+  "schfilemtime": 1722423342335
+}
