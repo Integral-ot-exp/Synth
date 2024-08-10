@@ -1,10 +1,10 @@
 {
   "uuid": "eead829a47ba1654478ccca3aa4e266b",
-  "path": "Offline/%D0%9C%D0%B8%D0%BA%D1%80%D0%BE%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D0%BB%D0%B5%D1%80",
+  "path": "Offline/Микроконтроллер",
   "name": "Микроконтроллер",
   "content": "Создаю микроконтроллер на основе Cortex-M0+",
   "created_at": "2024-07-26 13:10:18",
-  "updated_at": "2024-07-31 13:55:42",
+  "updated_at": "2024-08-10 15:08:39",
   "stick": "",
   "documents": [
     {
@@ -16,8 +16,9 @@
       "thumb": "/images/thumb-default.png",
       "components": {
         "c5e9484272374adaa2838cc7f1130931": 1,
-        "68ad42185dd04d73a5fa49a1411d67c0": 1,
-        "9e2be9abb2354c138ce580a48940bdd2": 1
+        "9e2be9abb2354c138ce580a48940bdd2": 1,
+        "3d934d82904b4c46a63ba0283a7ea11a": 1,
+        "e934ffa94bf0419ea042dcad3c3293ca": 2
       },
       "BOM": [
         [
@@ -26,6 +27,57 @@
           "Package",
           "Components",
           "CustomPara"
+        ],
+        [
+          "100nF",
+          1,
+          "CAP-TH_L7.2-W2.5-P5.00-D0.5",
+          "C1",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3019037",
+            "Manufacturer": "KYET(科雅)",
+            "Manufacturer Part": "PE104J2A0504",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PE104J2A0504",
+            "puuid": "36f5e32e6fda497d8f605cd2fcc2f390",
+            "uuid": "e934ffa94bf0419ea042dcad3c3293ca"
+          }
+        ],
+        [
+          "1uF",
+          1,
+          "CAP-TH_L7.2-W2.5-P5.00-D0.5",
+          "C2",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3019037",
+            "Manufacturer": "KYET(科雅)",
+            "Manufacturer Part": "PE104J2A0504",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PE104J2A0504",
+            "puuid": "36f5e32e6fda497d8f605cd2fcc2f390",
+            "uuid": "e934ffa94bf0419ea042dcad3c3293ca"
+          }
+        ],
+        [
+          "120Ω",
+          1,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120104",
+            "Manufacturer": "CCO(千志电子)",
+            "Manufacturer Part": "CF1/4W-110KΩ±5% T52",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CF1/4W-110KΩ±5% T52",
+            "puuid": "9ea59130ae074fa3abe27de8cbf71d91",
+            "uuid": "3d934d82904b4c46a63ba0283a7ea11a"
+          }
         ],
         [
           "STM32G030F6P6",
@@ -45,27 +97,10 @@
           }
         ],
         [
-          "LD39050PU33R",
-          1,
-          "DFN-6_L3.0-W3.0-P0.95-LS3.1-TL-EP",
-          "U2",
-          {
-            "Contributor": "LCSC",
-            "Supplier": "LCSC",
-            "Manufacturer": "ST(意法半导体)",
-            "Manufacturer Part": "LD39050PU33R",
-            "Supplier Part": "C132827",
-            "JLCPCB Part Class": "Extended Part",
-            "spiceSymbolName": "LD39050PU33R",
-            "puuid": "33714897f25448668222eb7728a98e24",
-            "uuid": "68ad42185dd04d73a5fa49a1411d67c0"
-          }
-        ],
-        [
           "LD1117S50TR",
           1,
           "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
-          "U3",
+          "U2",
           {
             "Supplier": "LCSC",
             "Manufacturer": "ST(意法半导体)",
@@ -78,16 +113,38 @@
           }
         ]
       ],
-      "updateTime": 1722423342,
+      "updateTime": 1723288124,
       "createTime": 1721988618,
       "histories": [],
       "created_at": "2024-07-26 13:10:18",
-      "updated_at": "2024-07-31 13:55:42"
+      "updated_at": "2024-08-10 14:08:44"
+    },
+    {
+      "uuid": "1acecc137eb3e073d2c8f910ac36b84e",
+      "puuid": "eead829a47ba1654478ccca3aa4e266b",
+      "title": "PCB_Микроконтроллер_2",
+      "filename": "PCB_Микроконтроллер_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "9ea59130ae074fa3abe27de8cbf71d91": 1,
+        "1586800a83194e228c6527ad76c86945": 1,
+        "02ae667aca734971be8a5f58143dd564": 1,
+        "36f5e32e6fda497d8f605cd2fcc2f390": 2
+      },
+      "BOM": [],
+      "updateTime": 1723291719,
+      "createTime": 1723288069,
+      "histories": [],
+      "created_at": "2024-08-10 14:07:49",
+      "updated_at": "2024-08-10 15:08:39"
     }
   ],
   "sort": [],
   "title": "Микроконтроллер",
   "foldername": "Микроконтроллер",
   "schfilename": "Микроконтроллер.json",
-  "schfilemtime": 1722423342335
+  "schfilemtime": 1723288124174
 }
