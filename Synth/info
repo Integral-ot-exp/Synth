@@ -4,7 +4,7 @@
   "name": "Synth",
   "content": "",
   "created_at": "2024-06-27 21:21:08",
-  "updated_at": "2024-07-26 15:30:15",
+  "updated_at": "2024-08-14 23:36:21",
   "stick": "",
   "documents": [
     {
@@ -238,27 +238,27 @@
           }
         ],
         [
-          "HDR-F-2.54_1x6",
+          "HDR-F-2.54_1x5",
           1,
-          "HDR-F-2.54_1X6",
+          "HDR-F-2.54_1X5",
           "H1",
           {
-            "Supplier Part": "C40877",
+            "Supplier Part": "C50950",
             "Supplier": "LCSC",
             "Manufacturer": "",
             "Manufacturer Part": "",
             "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "HDR-F-2.54_1x6",
-            "puuid": "e86d43893d914130bd34765c00ed5f63",
-            "uuid": "2f5c8276f8d64010877a8d3bb97697b8"
+            "spiceSymbolName": "HDR-F-2.54_1x5",
+            "puuid": "4bb67b2ac49a4595b3ed10b792fcbebb",
+            "uuid": "65b1ae295679465fabfb76c1fc7cc7e6"
           }
         ]
       ],
-      "updateTime": 1721997015,
+      "updateTime": 1723665729,
       "createTime": 1719664863,
       "histories": [],
       "created_at": "2024-06-29 15:41:03",
-      "updated_at": "2024-07-26 15:30:15"
+      "updated_at": "2024-08-14 23:02:09"
     },
     {
       "uuid": "0c025a35609e5b3ce286c495ada8de2e",
@@ -268,8 +268,8 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "2f5c8276f8d64010877a8d3bb97697b8": 1,
-        "9d18d7915a14413db26bfb8ad172ddec": 2
+        "9d18d7915a14413db26bfb8ad172ddec": 2,
+        "65b1ae295679465fabfb76c1fc7cc7e6": 1
       },
       "BOM": [
         [
@@ -365,27 +365,27 @@
           }
         ],
         [
-          "HDR-F-2.54_1x6",
+          "HDR-F-2.54_1x5",
           1,
-          "HDR-F-2.54_1X6",
+          "HDR-F-2.54_1X5",
           "H1",
           {
-            "Supplier Part": "C40877",
+            "Supplier Part": "C50950",
             "Supplier": "LCSC",
             "Manufacturer": "",
             "Manufacturer Part": "",
             "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "HDR-F-2.54_1x6",
-            "puuid": "e86d43893d914130bd34765c00ed5f63",
-            "uuid": "2f5c8276f8d64010877a8d3bb97697b8"
+            "spiceSymbolName": "HDR-F-2.54_1x5",
+            "puuid": "4bb67b2ac49a4595b3ed10b792fcbebb",
+            "uuid": "65b1ae295679465fabfb76c1fc7cc7e6"
           }
         ]
       ],
-      "updateTime": 1721995845,
+      "updateTime": 1723665622,
       "createTime": 1720961666,
       "histories": [],
       "created_at": "2024-07-14 15:54:26",
-      "updated_at": "2024-07-26 15:10:45"
+      "updated_at": "2024-08-14 23:00:22"
     },
     {
       "uuid": "c40adcafe6b4fbcd74bc6931e1fb4e5d",
@@ -398,18 +398,18 @@
       "thumb": "/images/thumb-default.png",
       "components": {
         "36f5e32e6fda497d8f605cd2fcc2f390": 3,
-        "a801549ddf8f431796761cd071417387": 2,
-        "e86d43893d914130bd34765c00ed5f63": 1,
         "cbb783650c0145abbbc29a9941eb1b0b": 24,
         "1f423f14388b4b17afc87646625a53f6": 3,
+        "a801549ddf8f431796761cd071417387": 2,
+        "4bb67b2ac49a4595b3ed10b792fcbebb": 1,
         "9ea59130ae074fa3abe27de8cbf71d91": 24
       },
       "BOM": [],
-      "updateTime": 1721995363,
+      "updateTime": 1723667781,
       "createTime": 1719926307,
       "histories": [],
       "created_at": "2024-07-02 16:18:27",
-      "updated_at": "2024-07-26 15:02:43"
+      "updated_at": "2024-08-14 23:36:21"
     }
   ],
   "sort": [
@@ -420,5 +420,5 @@
   "title": "Synth",
   "foldername": "Synth",
   "schfilename": "prob.json",
-  "schfilemtime": 1721997015505
+  "schfilemtime": 1723665729877
 }

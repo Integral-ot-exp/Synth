@@ -4,7 +4,7 @@
   "name": "Микроконтроллер",
   "content": "Создаю микроконтроллер на основе Cortex-M0+",
   "created_at": "2024-07-26 13:10:18",
-  "updated_at": "2024-08-11 15:42:59",
+  "updated_at": "2024-08-14 23:42:24",
   "stick": "",
   "documents": [
     {
@@ -15,14 +15,16 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "c5e9484272374adaa2838cc7f1130931": 1,
         "99aa11c84c1545a1af2daf5d364363ca": 1,
         "24eeb2ceca08480b92b847b6a310acda": 8,
         "11170e0dd9f94e4cfec1d1ffc2309a8f": 1,
         "003b01f0f65843208b44aef29c46ce8e": 1,
         "78b150921f604c508626e291751f885a": 1,
         "00ef082505fc4fb190eecc552c946962": 1,
-        "bb009484ef804a24ac5d18c54b249586": 1
+        "bb009484ef804a24ac5d18c54b249586": 2,
+        "88bfa248e4b44f22b61fa5bc6943de05": 1,
+        "c5e9484272374adaa2838cc7f1130931": 1,
+        "7809ed3ba7c24a14936ce2a66b37ccdb": 1
       },
       "BOM": [
         [
@@ -125,6 +127,38 @@
           }
         ],
         [
+          "LED-DIODE_2",
+          1,
+          "LED0805-RD",
+          "D2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900003436",
+            "Manufacturer": "null",
+            "Manufacturer Part": "LED-DIODE_2",
+            "spiceSymbolName": "LED-DIODE_2",
+            "puuid": "a267edbe7c3c4a16b85fd51e936458d0",
+            "uuid": "88bfa248e4b44f22b61fa5bc6943de05"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x8",
+          1,
+          "HDR-F-2.54_1X8",
+          "H1",
+          {
+            "Supplier Part": "C225505",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-F-2.54_1x8",
+            "puuid": "76a028e0363649388f2a2e340a157455",
+            "uuid": "7809ed3ba7c24a14936ce2a66b37ccdb"
+          }
+        ],
+        [
           "K4-6×6_SMD",
           1,
           "KEY-SMD_4P-L6.0-W6.0-P3.90-LS10.0",
@@ -145,6 +179,21 @@
           1,
           "R0603",
           "R1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R0603",
+          "R2",
           {
             "Supplier Part": "",
             "Supplier": "",
@@ -222,11 +271,11 @@
           }
         ]
       ],
-      "updateTime": 1723380154,
+      "updateTime": 1723668144,
       "createTime": 1721988618,
       "histories": [],
       "created_at": "2024-07-26 13:10:18",
-      "updated_at": "2024-08-11 15:42:34"
+      "updated_at": "2024-08-14 23:42:24"
     },
     {
       "uuid": "1acecc137eb3e073d2c8f910ac36b84e",
@@ -245,19 +294,21 @@
         "dbe461f464364177872eadec2107e0b6": 1,
         "fb532a834f114cab8c58c4bcae32e8d3": 1,
         "23fe1589f11a4240b3fbf7627f96d133": 1,
-        "398691f1f785460098bbe5ee6590333c": 1
+        "398691f1f785460098bbe5ee6590333c": 2,
+        "a267edbe7c3c4a16b85fd51e936458d0": 1,
+        "76a028e0363649388f2a2e340a157455": 1
       },
       "BOM": [],
-      "updateTime": 1723380179,
+      "updateTime": 1723667919,
       "createTime": 1723288069,
       "histories": [],
       "created_at": "2024-08-10 14:07:49",
-      "updated_at": "2024-08-11 15:42:59"
+      "updated_at": "2024-08-14 23:38:39"
     }
   ],
   "sort": [],
   "title": "Микроконтроллер",
   "foldername": "Микроконтроллер",
   "schfilename": "Микроконтроллер.json",
-  "schfilemtime": 1723380154880
+  "schfilemtime": 1723668144645
 }
