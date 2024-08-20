@@ -4,7 +4,7 @@
   "name": "Synth",
   "content": "",
   "created_at": "2024-06-27 21:21:08",
-  "updated_at": "2024-08-17 22:14:53",
+  "updated_at": "2024-08-21 01:04:37",
   "stick": "",
   "documents": [
     {
@@ -36,15 +36,10 @@
           "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL",
           "B1_CLK,B2_SH",
           {
-            "Supplier": "LCSC",
-            "Manufacturer": "TI(德州仪器)",
             "Manufacturer Part": "SN74LVC1G125DBVR",
-            "Supplier Part": "C23654",
-            "JLCPCB Part Class": "Extended Part",
-            "Contributor": "danik_mus",
-            "spiceSymbolName": "SN74LVC1G125DBVR",
-            "puuid": "a801549ddf8f431796761cd071417387",
-            "uuid": "9d18d7915a14413db26bfb8ad172ddec"
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C23654"
           }
         ],
         [
@@ -53,15 +48,10 @@
           "CAP-TH_L7.2-W2.5-P5.00-D0.5",
           "C1,C2,C6",
           {
-            "Contributor": "lcsc",
-            "Supplier": "LCSC",
-            "Supplier Part": "C3019037",
-            "Manufacturer": "KYET(科雅)",
             "Manufacturer Part": "PE104J2A0504",
-            "JLCPCB Part Class": "Extended Part",
-            "spiceSymbolName": "PE104J2A0504",
-            "puuid": "36f5e32e6fda497d8f605cd2fcc2f390",
-            "uuid": "e934ffa94bf0419ea042dcad3c3293ca"
+            "Manufacturer": "KYET(科雅)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3019037"
           }
         ],
         [
@@ -70,14 +60,10 @@
           "HDR-F-2.54_1X5",
           "H1",
           {
-            "Supplier Part": "C50950",
-            "Supplier": "LCSC",
-            "Manufacturer": "",
             "Manufacturer Part": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "HDR-F-2.54_1x5",
-            "puuid": "4bb67b2ac49a4595b3ed10b792fcbebb",
-            "uuid": "65b1ae295679465fabfb76c1fc7cc7e6"
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C50950"
           }
         ],
         [
@@ -86,15 +72,10 @@
           "RES-TH_BD2.3-L6.5-P10.50-D0.5",
           "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24",
           {
-            "Contributor": "LCSC",
-            "Supplier": "LCSC",
-            "Supplier Part": "C120104",
-            "Manufacturer": "CCO(千志电子)",
             "Manufacturer Part": "CF1/4W-110KΩ±5% T52",
-            "JLCPCB Part Class": "Extended Part",
-            "spiceSymbolName": "CF1/4W-110KΩ±5% T52",
-            "puuid": "9ea59130ae074fa3abe27de8cbf71d91",
-            "uuid": "3d934d82904b4c46a63ba0283a7ea11a"
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120104"
           }
         ],
         [
@@ -103,15 +84,10 @@
           "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2",
           "SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12,SW13,SW14,SW15,SW16,SW17,SW18,SW19,SW20,SW21,SW22,SW23,SW24",
           {
-            "Contributor": "lcsc",
-            "Supplier": "LCSC",
-            "Supplier Part": "C9900024939",
-            "Manufacturer": "null",
             "Manufacturer Part": "按键",
-            "JLCPCB Part Class": "Extended Part",
-            "spiceSymbolName": "SW",
-            "puuid": "cbb783650c0145abbbc29a9941eb1b0b",
-            "uuid": "e715623c06364cf8849818371cf1f7b0"
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900024939"
           }
         ],
         [
@@ -120,23 +96,18 @@
           "DIP-16_L19.8-W6.5-P2.54-LS7.6-BL",
           "U1,U2,U3",
           {
-            "Supplier": "LCSC",
-            "Manufacturer": "TI(德州仪器)",
             "Manufacturer Part": "SN74HC165N",
-            "Supplier Part": "C2909",
-            "JLCPCB Part Class": "Extended Part",
-            "Contributor": "danik_mus",
-            "spiceSymbolName": "SN74HC165N",
-            "puuid": "1f423f14388b4b17afc87646625a53f6",
-            "uuid": "3131f2dd8017479d82134c25c43ed724"
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2909"
           }
         ]
       ],
-      "updateTime": 1723922093,
+      "updateTime": 1724178145,
       "createTime": 1719664863,
       "histories": [],
       "created_at": "2024-06-29 15:41:03",
-      "updated_at": "2024-08-17 22:14:53"
+      "updated_at": "2024-08-20 21:22:25"
     },
     {
       "uuid": "c40adcafe6b4fbcd74bc6931e1fb4e5d",
@@ -156,11 +127,11 @@
         "9ea59130ae074fa3abe27de8cbf71d91": 24
       },
       "BOM": [],
-      "updateTime": 1723720179,
+      "updateTime": 1724191477,
       "createTime": 1719926307,
       "histories": [],
       "created_at": "2024-07-02 16:18:27",
-      "updated_at": "2024-08-15 14:09:39"
+      "updated_at": "2024-08-21 01:04:37"
     }
   ],
   "sort": [
@@ -171,5 +142,5 @@
   "title": "Synth",
   "foldername": "Synth",
   "schfilename": "prob.json",
-  "schfilemtime": 1723922093829
+  "schfilemtime": 1724178145245
 }
