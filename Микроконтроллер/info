@@ -1,0 +1,274 @@
+{
+  "uuid": "eead829a47ba1654478ccca3aa4e266b",
+  "path": "Offline/Микроконтроллер",
+  "name": "Микроконтроллер",
+  "content": "Создаю микроконтроллер на основе Cortex-M0+",
+  "created_at": "2024-07-26 13:10:18",
+  "updated_at": "2024-08-27 15:15:22",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "26e96b28be26db0a18a65558df6bcb1f",
+      "title": "Микроконтроллер",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "c5e9484272374adaa2838cc7f1130931": 1,
+        "99aa11c84c1545a1af2daf5d364363ca": 1,
+        "24eeb2ceca08480b92b847b6a310acda": 8,
+        "11170e0dd9f94e4cfec1d1ffc2309a8f": 1,
+        "003b01f0f65843208b44aef29c46ce8e": 1,
+        "78b150921f604c508626e291751f885a": 1,
+        "00ef082505fc4fb190eecc552c946962": 1,
+        "bb009484ef804a24ac5d18c54b249586": 1,
+        "a052559478a14ee2b9e3514bee4ff72d": 1,
+        "a9aa2b14f188405792fa87ac344499a4": 1,
+        "ea8e9210fea7d2b16be5253aa31bc32c": 1,
+        "40b57726879e4da9b662d0e4a85357ff": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1uF",
+          2,
+          "C0603",
+          "C1,C5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100nF",
+          2,
+          "C0603",
+          "C2,C6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10pF",
+          2,
+          "C0603",
+          "C3,C4",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10nF",
+          1,
+          "C0603",
+          "C7",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "0.1u",
+          1,
+          "C0603",
+          "C8",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "BAT60JFILM",
+          1,
+          "SOD-323_L1.8-W1.3-LS2.5-RD",
+          "D1",
+          {
+            "Manufacturer Part": "BAT60JFILM",
+            "Manufacturer": "ST(意法半导体)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C133103"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x5",
+          1,
+          "HDR-M-2.54_1X5",
+          "J1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C358687"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "J2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124375"
+          }
+        ],
+        [
+          "320B/PJ-001 3.5Jacks",
+          1,
+          "AUDIO-SMD_C3792",
+          "J3",
+          {
+            "Manufacturer Part": "320B/PJ-001 3.5Jacks",
+            "Manufacturer": "ReliaPro",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3792"
+          }
+        ],
+        [
+          "K4-6×6_SMD",
+          1,
+          "KEY-SMD_4P-L6.0-W6.0-P3.90-LS10.0",
+          "KEY1(RESET)",
+          {
+            "Manufacturer Part": "K2-6639SP-D4SC-04",
+            "Manufacturer": "韩国韩荣",
+            "Supplier": "LCSC",
+            "Supplier Part": "C191626"
+          }
+        ],
+        [
+          "100k",
+          1,
+          "R0603",
+          "R1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "POTRES COPY COPY",
+          1,
+          "ПОТЕНЦИОМЕТР",
+          "RP1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "STM32G030F6P6",
+          1,
+          "TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL",
+          "U1",
+          {
+            "Manufacturer Part": "STM32G030F6P6",
+            "Manufacturer": "ST(意法半导体)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C724040"
+          }
+        ],
+        [
+          "LD3985M33R",
+          1,
+          "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+          "U3",
+          {
+            "Manufacturer Part": "LD3985M33R",
+            "Manufacturer": "ST(意法半导体)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C46243"
+          }
+        ],
+        [
+          "MICRO USB B",
+          1,
+          "GENERIC MICRO USB / MICRO-USB-SMD_MICRO-USB-16",
+          "USB1",
+          {
+            "Manufacturer Part": "U-F-M5SW-Y-3",
+            "Manufacturer": "HRO",
+            "Supplier": "LCSC",
+            "Supplier Part": "C106820"
+          }
+        ],
+        [
+          "8MHz",
+          1,
+          "OSC-SMD_2P-L3.2-W2.5",
+          "X1",
+          {
+            "Manufacturer Part": "NX3225GD-8MHZ-STD-CRA-3",
+            "Manufacturer": "NDK",
+            "Supplier": "LCSC",
+            "Supplier Part": "C889706"
+          }
+        ]
+      ],
+      "updateTime": 1724485552,
+      "createTime": 1721988618,
+      "histories": [],
+      "created_at": "2024-07-26 13:10:18",
+      "updated_at": "2024-08-24 10:45:52"
+    },
+    {
+      "uuid": "1acecc137eb3e073d2c8f910ac36b84e",
+      "puuid": "eead829a47ba1654478ccca3aa4e266b",
+      "title": "PCB_Микроконтроллер_2",
+      "filename": "PCB_Микроконтроллер_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "1586800a83194e228c6527ad76c86945": 1,
+        "f8151fdc728a41ebbc304e11d39e5437": 8,
+        "dd3cfd4941c4479cb7f2c598e6fde06c": 1,
+        "e7f085e4f71344109c090040716070ab": 1,
+        "dbe461f464364177872eadec2107e0b6": 1,
+        "23fe1589f11a4240b3fbf7627f96d133": 1,
+        "398691f1f785460098bbe5ee6590333c": 1,
+        "108969f8d9834a9ea23bcec2d43a66e4": 1,
+        "70aa5812f21f4991bf427395d51849f4": 1,
+        "b9f5929694ca4d32bdab3850b633b09c": 1,
+        "fb532a834f114cab8c58c4bcae32e8d3": 1,
+        "41faf7dd2f874a409a803f6bf9a473c9": 1
+      },
+      "BOM": [],
+      "updateTime": 1724760922,
+      "createTime": 1723288069,
+      "histories": [],
+      "created_at": "2024-08-10 14:07:49",
+      "updated_at": "2024-08-27 15:15:22"
+    }
+  ],
+  "sort": [],
+  "title": "Микроконтроллер",
+  "foldername": "Микроконтроллер",
+  "schfilename": "Микроконтроллер.json",
+  "schfilemtime": 1724485552515
+}
