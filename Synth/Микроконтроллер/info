@@ -4,7 +4,7 @@
   "name": "Микроконтроллер",
   "content": "Создаю микроконтроллер на основе Cortex-M0+",
   "created_at": "2024-07-26 13:10:18",
-  "updated_at": "2024-08-27 15:15:22",
+  "updated_at": "2024-10-03 20:03:11",
   "stick": "",
   "documents": [
     {
@@ -24,7 +24,7 @@
         "00ef082505fc4fb190eecc552c946962": 1,
         "bb009484ef804a24ac5d18c54b249586": 1,
         "a052559478a14ee2b9e3514bee4ff72d": 1,
-        "a9aa2b14f188405792fa87ac344499a4": 1,
+        "a9aa2b14f188405792fa87ac344499a4": 2,
         "ea8e9210fea7d2b16be5253aa31bc32c": 1,
         "40b57726879e4da9b662d0e4a85357ff": 1
       },
@@ -42,10 +42,13 @@
           "C0603",
           "C1,C5",
           {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
+            "Supplier Part": "",
             "Supplier": "",
-            "Supplier Part": ""
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
           }
         ],
         [
@@ -54,10 +57,13 @@
           "C0603",
           "C2,C6",
           {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
+            "Supplier Part": "",
             "Supplier": "",
-            "Supplier Part": ""
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
           }
         ],
         [
@@ -66,10 +72,13 @@
           "C0603",
           "C3,C4",
           {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
+            "Supplier Part": "",
             "Supplier": "",
-            "Supplier Part": ""
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
           }
         ],
         [
@@ -78,10 +87,13 @@
           "C0603",
           "C7",
           {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
+            "Supplier Part": "",
             "Supplier": "",
-            "Supplier Part": ""
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
           }
         ],
         [
@@ -90,10 +102,13 @@
           "C0603",
           "C8",
           {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
+            "Supplier Part": "",
             "Supplier": "",
-            "Supplier Part": ""
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
           }
         ],
         [
@@ -102,10 +117,15 @@
           "SOD-323_L1.8-W1.3-LS2.5-RD",
           "D1",
           {
-            "Manufacturer Part": "BAT60JFILM",
-            "Manufacturer": "ST(意法半导体)",
+            "Contributor": "LCSC",
             "Supplier": "LCSC",
-            "Supplier Part": "C133103"
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "BAT60JFILM",
+            "Supplier Part": "C133103",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BAT60JFILM",
+            "puuid": "dd3cfd4941c4479cb7f2c598e6fde06c",
+            "uuid": "003b01f0f65843208b44aef29c46ce8e"
           }
         ],
         [
@@ -114,22 +134,30 @@
           "HDR-M-2.54_1X5",
           "J1",
           {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
+            "Supplier Part": "C358687",
             "Supplier": "LCSC",
-            "Supplier Part": "C358687"
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x5",
+            "puuid": "108969f8d9834a9ea23bcec2d43a66e4",
+            "uuid": "a052559478a14ee2b9e3514bee4ff72d"
           }
         ],
         [
           "HDR-M-2.54_1x2",
-          1,
+          2,
           "HDR-M-2.54_1X2",
-          "J2",
+          "J2,J4",
           {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
+            "Supplier Part": "C124375",
             "Supplier": "LCSC",
-            "Supplier Part": "C124375"
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
           }
         ],
         [
@@ -138,10 +166,13 @@
           "AUDIO-SMD_C3792",
           "J3",
           {
-            "Manufacturer Part": "320B/PJ-001 3.5Jacks",
-            "Manufacturer": "ReliaPro",
+            "Supplier Part": "C3792",
             "Supplier": "LCSC",
-            "Supplier Part": "C3792"
+            "Manufacturer": "ReliaPro",
+            "Manufacturer Part": "320B/PJ-001 3.5Jacks",
+            "spiceSymbolName": "320B/PJ-001 3.5Jacks",
+            "puuid": "b9f5929694ca4d32bdab3850b633b09c",
+            "uuid": "ea8e9210fea7d2b16be5253aa31bc32c"
           }
         ],
         [
@@ -150,10 +181,14 @@
           "KEY-SMD_4P-L6.0-W6.0-P3.90-LS10.0",
           "KEY1(RESET)",
           {
-            "Manufacturer Part": "K2-6639SP-D4SC-04",
-            "Manufacturer": "韩国韩荣",
+            "Supplier Part": "C191626",
             "Supplier": "LCSC",
-            "Supplier Part": "C191626"
+            "Manufacturer": "韩国韩荣",
+            "Manufacturer Part": "K2-6639SP-D4SC-04",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "K4-6×6_SMD",
+            "puuid": "fb532a834f114cab8c58c4bcae32e8d3",
+            "uuid": "00ef082505fc4fb190eecc552c946962"
           }
         ],
         [
@@ -162,10 +197,13 @@
           "R0603",
           "R1",
           {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
+            "Supplier Part": "",
             "Supplier": "",
-            "Supplier Part": ""
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
           }
         ],
         [
@@ -174,10 +212,15 @@
           "ПОТЕНЦИОМЕТР",
           "RP1",
           {
-            "Manufacturer Part": "",
             "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
             "Supplier": "",
-            "Supplier Part": ""
+            "link": "",
+            "Contributor": "ttnigmatyllin",
+            "spiceSymbolName": "POTRES COPY COPY",
+            "puuid": "41faf7dd2f874a409a803f6bf9a473c9",
+            "uuid": "40b57726879e4da9b662d0e4a85357ff"
           }
         ],
         [
@@ -186,10 +229,15 @@
           "TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL",
           "U1",
           {
-            "Manufacturer Part": "STM32G030F6P6",
-            "Manufacturer": "ST(意法半导体)",
+            "Contributor": "LCSC",
             "Supplier": "LCSC",
-            "Supplier Part": "C724040"
+            "Supplier Part": "C724040",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "STM32G030F6P6",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "STM32G030F6P6",
+            "puuid": "1586800a83194e228c6527ad76c86945",
+            "uuid": "c5e9484272374adaa2838cc7f1130931"
           }
         ],
         [
@@ -198,10 +246,14 @@
           "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
           "U3",
           {
-            "Manufacturer Part": "LD3985M33R",
-            "Manufacturer": "ST(意法半导体)",
             "Supplier": "LCSC",
-            "Supplier Part": "C46243"
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "LD3985M33R",
+            "Supplier Part": "C46243",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LD3985M33R",
+            "puuid": "e7f085e4f71344109c090040716070ab",
+            "uuid": "11170e0dd9f94e4cfec1d1ffc2309a8f"
           }
         ],
         [
@@ -210,10 +262,14 @@
           "GENERIC MICRO USB / MICRO-USB-SMD_MICRO-USB-16",
           "USB1",
           {
-            "Manufacturer Part": "U-F-M5SW-Y-3",
-            "Manufacturer": "HRO",
             "Supplier": "LCSC",
-            "Supplier Part": "C106820"
+            "Manufacturer": "HRO",
+            "Manufacturer Part": "U-F-M5SW-Y-3",
+            "Supplier Part": "C106820",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "MICRO USB B",
+            "puuid": "23fe1589f11a4240b3fbf7627f96d133",
+            "uuid": "78b150921f604c508626e291751f885a"
           }
         ],
         [
@@ -222,18 +278,23 @@
           "OSC-SMD_2P-L3.2-W2.5",
           "X1",
           {
-            "Manufacturer Part": "NX3225GD-8MHZ-STD-CRA-3",
-            "Manufacturer": "NDK",
+            "Contributor": "LCSC",
             "Supplier": "LCSC",
-            "Supplier Part": "C889706"
+            "Supplier Part": "C889706",
+            "Manufacturer": "NDK",
+            "Manufacturer Part": "NX3225GD-8MHZ-STD-CRA-3",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "NX3225GD-8MHZ-STD-CRA-3",
+            "puuid": "dbe461f464364177872eadec2107e0b6",
+            "uuid": "99aa11c84c1545a1af2daf5d364363ca"
           }
         ]
       ],
-      "updateTime": 1724485552,
+      "updateTime": 1727974904,
       "createTime": 1721988618,
       "histories": [],
       "created_at": "2024-07-26 13:10:18",
-      "updated_at": "2024-08-24 10:45:52"
+      "updated_at": "2024-10-03 20:01:44"
     },
     {
       "uuid": "1acecc137eb3e073d2c8f910ac36b84e",
@@ -245,6 +306,7 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "70aa5812f21f4991bf427395d51849f4": 2,
         "1586800a83194e228c6527ad76c86945": 1,
         "f8151fdc728a41ebbc304e11d39e5437": 8,
         "dd3cfd4941c4479cb7f2c598e6fde06c": 1,
@@ -253,22 +315,21 @@
         "23fe1589f11a4240b3fbf7627f96d133": 1,
         "398691f1f785460098bbe5ee6590333c": 1,
         "108969f8d9834a9ea23bcec2d43a66e4": 1,
-        "70aa5812f21f4991bf427395d51849f4": 1,
         "b9f5929694ca4d32bdab3850b633b09c": 1,
         "fb532a834f114cab8c58c4bcae32e8d3": 1,
         "41faf7dd2f874a409a803f6bf9a473c9": 1
       },
       "BOM": [],
-      "updateTime": 1724760922,
+      "updateTime": 1727974991,
       "createTime": 1723288069,
       "histories": [],
       "created_at": "2024-08-10 14:07:49",
-      "updated_at": "2024-08-27 15:15:22"
+      "updated_at": "2024-10-03 20:03:11"
     }
   ],
   "sort": [],
   "title": "Микроконтроллер",
   "foldername": "Микроконтроллер",
   "schfilename": "Микроконтроллер.json",
-  "schfilemtime": 1724485552515
+  "schfilemtime": 1727974904851
 }
