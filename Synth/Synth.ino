@@ -51,14 +51,22 @@ void loop()
   int rot, y, x, n, r, col, j, max;
   //byte in_165_shift = shiftIn(DATA_PIN, CLOCK_PIN, MSBFIRST);
   digitalWrite( LATCH_PIN, HIGH ); 
-  byte in_165_shift = shiftInFixed( DATA_PIN, CLOCK_PIN ); 
+  uint8_t in_165_shift = shiftInFixed( DATA_PIN, CLOCK_PIN );
   digitalWrite(LATCH_PIN,LOW);
   rot = analogRead(PIN_POT);
   matrix.setBrightness( 255 );
   
-  set(in_165_shift);
-  //full(in_165_shift);
-  del(~in_165_shift);
+  for (int i = 0; i < 8; i++)
+  {
+    if (in_165_shift % 2 == 1)
+    {
+      set(i);
+      //full(in_165_shift);
+      //del(~i);;
+    }
+    in_165_shift = in_165_shift / 2;
+
+  }
 
   matrix.show();
 }
@@ -67,7 +75,7 @@ void set(int in_165_shift)
 {
   int r, x, y, n;
 
-  n = in_165_shift / 4;
+  n = in_165_shift;
   r = n / 8;
   x = n;// - 8 * r;
   y = n;// / 8;
@@ -79,7 +87,7 @@ void del(int in_165_shift)
 {
   int x, r, y, n;
 
-  n = in_165_shift / 4 + 1;
+  n = in_165_shift;
   r = n / 8;
   y = n;// / 8;
   x = n;// - 8 * r;
@@ -122,15 +130,14 @@ int color(int n)
 }
 
 byte shiftInFixed( byte dataPin, byte clockPin ) 
-{ 
-    byte value = 0; 
-    int j= 7; 
-    for( byte i=0; i<8; ++i ) 
-    { 
-        value |= digitalRead( dataPin ) << j;
-        j--;
-        digitalWrite( clockPin, HIGH ); 
-        digitalWrite( clockPin, LOW ); 
-    } 
-    return value; 
+{
+  byte value; 
+  int j= 7; 
+  for( byte i=0; i<8; ++i ) 
+  { 
+    value |= digitalRead( dataPin ) << j;
+    j--;
+    digitalWrite( clockPin, HIGH ); 
+    digitalWrite( clockPin, LOW );
+  } 
 } 
